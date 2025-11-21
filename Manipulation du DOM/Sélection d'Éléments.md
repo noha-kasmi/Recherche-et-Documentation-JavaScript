@@ -10,7 +10,11 @@ cas d'utilisation:
 on utilise cette méthode quand on veut récupérer ou modifier un élément précis dans ta page 
 
 exemple : 
+
+<p class="titre">c'est le titre 1</p>
+
 const titre = document.getElementById("titre");
+
 
 querySelector("") : méthode js pour séléctionner le premier élément qui est correspondant à un sélécteur (id , classe,balise html , attribut etc ....)
 
@@ -52,3 +56,16 @@ const btn = document.querySelector(".btn-acheter");
 btn.addEventListener("click", () => {
     alert("Produit ajouté !");
 });
+
+
+
+querySelectorAll(): méthode js permet de séléctionner plusieur éléments à la fois en utilisant un sélecteur
+
+cas d'utilisation : 
+on l'utilise pour sélectionner ou appliquer une action sur plusieur élément en le meme sélécteur 
+
+syntaxe : 
+const elements = document.querySelectorAll("");
+
+
+
