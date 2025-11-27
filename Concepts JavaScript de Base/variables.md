@@ -1,6 +1,6 @@
 Catégorie 1 : Concepts JavaScript de Base
 
-sujet : variables : var,let,const
+sujet : variables
 
 Variables : se sont des conteneurs pour stocker les données 
 
